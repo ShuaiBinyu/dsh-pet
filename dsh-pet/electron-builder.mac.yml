@@ -1,0 +1,7 @@
+extends: ./electron-builder.yml
+
+mac:
+  target:
+    - dir
+  category: public.app-category.entertainment
+  identity: null
